@@ -1,0 +1,25 @@
+---
+# https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+BasedOnStyle: LLVM
+
+# basics
+IndentWidth: 4
+UseTab: Never
+BreakBeforeBraces: Allman
+
+ColumnLimit: 0 # does not auto break lines
+NamespaceIndentation: All
+BreakConstructorInitializers: BeforeComma
+
+AccessModifierOffset: -4
+AlignAfterOpenBracket: BlockIndent
+AlignOperands: DontAlign
+
+BinPackArguments: false
+BinPackParameters: false
+
+IndentCaseLabels: true
+AllowShortCaseLabelsOnASingleLine: true
+AlignTrailingComments: false
+Cpp11BracedListStyle: false
+FixNamespaceComments: false
